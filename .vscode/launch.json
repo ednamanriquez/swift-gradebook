@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-gradebook}",
+            "name": "Debug swift-gradebook",
+            "program": "${workspaceFolder:swift-gradebook}/.build/debug/swift-gradebook",
+            "preLaunchTask": "swift: Build Debug swift-gradebook"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-gradebook}",
+            "name": "Release swift-gradebook",
+            "program": "${workspaceFolder:swift-gradebook}/.build/release/swift-gradebook",
+            "preLaunchTask": "swift: Build Release swift-gradebook"
+        }
+    ]
+}
